@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Implementation of Fibonacci series</title>
+  </head>
+
+  <body>
+    <h3>Fibonacci Series</h3>
+    <script type="text/javascript">
+      var var1 = 0;
+      var var2 = 1;
+      var var3;
+
+      var num = prompt("Enter the limit to generate fibonacci no", 0);
+      console.log(var1);
+      console.log(var2);
+
+      for (var i = 3; i <= num; i++) {
+        var3 = var1 + var2;
+        var1 = var2;
+        var2 = var3;
+
+        console.log(var3);
+      }
+    </script>
+  </body>
+</html>
